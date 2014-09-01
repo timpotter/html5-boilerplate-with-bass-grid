@@ -1,0 +1,69 @@
+/* VARIABLES
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* COLOUR */
+
+$text-grey: 		#333333;
+
+
+/* SETTINGS */
+
+$borderradius: 		5px;
+
+
+/* PLACEHOLDERS */
+
+%sans-serif {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: $text-grey;
+	}
+
+/* MIXINS */
+
+
+/* TYPOGRAPHY
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+body {
+	 @extend %sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	}
+
+
+a {
+	@include transition (all 150ms ease-in-out);
+	text-decoration: none;
+	}
+
+
+/* LAYOUT
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+/* USEFUL CLASSES
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.left {
+	float: left;
+	}
+
+.right {
+	float: right;
+	}
+
+/* CLEARFIX */
+
+.group:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+
