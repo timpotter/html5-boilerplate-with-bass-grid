@@ -7,6 +7,12 @@ Author:       Tim Potter
 Author URI:   http://littlethunder.co
 */
 
+/* Import Partials
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+@import 'reset';
+@import 'layout';
+
 /* Variables
 ------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -52,6 +58,13 @@ $container-width: 960px;      // Sets the width of the container if needed
   @media screen and (max-width: $container-width) {
     width: $base-width;     // Resets all columns to 100% width once breakpoint has been reached
   }
+}
+
+/* Makes images responsive
+------------------------------------------------------------------------------------------------------------------------------------------ */
+
+img {
+  max-width: 100%;
 }
 
 /* Choose a column size
