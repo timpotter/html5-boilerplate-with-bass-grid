@@ -100,6 +100,10 @@ input,
 textarea {
   -webkit-appearance: none; }
 
+/* Turns off Chrome Default Focus Outline */
+* {
+  outline: none; }
+
 /*   
 Project:      Bass - A smart, lightweight responsive grid, built with Sass
 Project URI:  http://timpotter.github.io/bass-grid
