@@ -28,8 +28,6 @@ $container-width: 960px;      // Sets the width of the container if needed
 // ------------------------------------------------------------------------------------------------------------------------------------------ */
 
 %column-style {
-  background: #2ecc71;        // Delete this - Demo purposes only
-  height: 100px;              // Delete this - Demo purposes only
   float:left;
   margin: 10px $gutter/2;     // Gutter divided by 2 to sit on left and right margins equally
   padding: 10px;

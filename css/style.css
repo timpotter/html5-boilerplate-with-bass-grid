@@ -252,8 +252,6 @@ a {
   visibility: hidden; }
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .full, .left-column, .right-column {
-  background: #2ecc71;
-  height: 100px;
   float: left;
   margin: 10px 1%;
   padding: 10px; }
