@@ -28,6 +28,7 @@ $borderradius: 		5px;
 body {
 	 @extend %sans-serif;
 	 -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
 	}
 
 

@@ -216,8 +216,11 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #333333; }
 
+/* Typography
+------------------------------------------------------------------------------------------------------------------------------------------ */
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   -webkit-transition: all 150ms ease-in-out;
@@ -225,6 +228,10 @@ a {
   transition: all 150ms ease-in-out;
   text-decoration: none; }
 
+/* Layout
+------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Useful Classes
+------------------------------------------------------------------------------------------------------------------------------------------ */
 .left {
   float: left; }
 
@@ -355,8 +362,11 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #333333; }
 
+/* Typography
+------------------------------------------------------------------------------------------------------------------------------------------ */
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   -webkit-transition: all 150ms ease-in-out;
@@ -364,6 +374,10 @@ a {
   transition: all 150ms ease-in-out;
   text-decoration: none; }
 
+/* Layout
+------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Useful Classes
+------------------------------------------------------------------------------------------------------------------------------------------ */
 .left {
   float: left; }
 
